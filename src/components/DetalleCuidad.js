@@ -62,7 +62,7 @@ export const DetalleCuidad = ({data}) => {
                             Informacion Adicional
                         </Typography> 
                         <Typography variant="subtitle1" color="text.secondary">
-                            Latitud: {coord.lat}°, Longitud: {coord.lon}°
+                            Lat: {coord.lat}°, Lon: {coord.lon}°
                         </Typography>
                         <Typography variant="subtitle1" color="text.secondary">
                             Temp Percibida: {handleDecimal(main.feels_like)}°C
