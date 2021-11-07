@@ -54,7 +54,9 @@ export const DetalleCuidad = ({data}) => {
                     aria-expanded={expanded}
                     aria-label="show more"
                 >
-                    Ver mas
+                    {
+                        expanded ? "Ver Menos" : "Ver Mas"
+                    }
                 </Button>
                 <Collapse in={expanded} timeout="auto" unmountOnExit>
                     <Box sx={{ my: 3,}}>
