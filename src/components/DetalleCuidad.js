@@ -28,7 +28,7 @@ export const DetalleCuidad = ({data}) => {
                     <CardMedia
                         component="img"
                         sx={{width: 150}}
-                        image={`http://openweathermap.org/img/wn/${weather[0].icon}@2x.png`}
+                        image={`https://openweathermap.org/img/wn/${weather[0].icon}@2x.png`}
                         alt={weather[0].main}
                     >
                     </CardMedia>  
